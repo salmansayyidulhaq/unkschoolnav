@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_parent"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Parent" />
+
+    </group>
+    <item android:title="Guest">
+        <menu>
+            <item
+                android:id="@+id/nav_tentang"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Tentang UBK" />
+            <item
+                android:id="@+id/nav_galery"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Gallery" />
+
+        </menu>
+    </item>
+
+
+
+</menu>
